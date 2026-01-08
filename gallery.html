@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Anime Gallery | Itachi Uchiha</title>
+        <meta name="description" content="Anime gallery of Itachi Uchiha from Naruto.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- OpenGraph -->
+        <meta property="og:title" content="Itachi Uchiha | Naruto Anime Fan Website">
+        <meta property="og:description" content="Discover the tragic story of Itachi Uchiha. Anime fan-made website inspired by Naruto.">
+        <meta property="og:image" content="https://your-site-url.com/itachi.jpg">
+        <meta property="og:url" content="https://your-site-url.com/gallery.html">
+        <meta property="og:type" content="website">
+
+        <!-- Twitter Card -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Itachi Uchiha | Naruto Anime">
+        <meta name="twitter:description" content="Fan-made anime website dedicated to Itachi Uchiha.">
+        <meta name="twitter:image" content="https://your-site-url.com/itachi.jpg">
+
+        <link rel="stylesheet" href="style1.css">
+    </head>
+
+    <body>
+    <div class="overlay">
+
+    <header>
+        <h1>Anime Gallery</h1>
+        <h2>Itachi Uchiha</h2>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="story.html">Story</a>
+            <a href="akatsuki.html">Akatsuki</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Gallery Grid -->
+        <section class="gallery-grid scroll-reveal">
+            <div class="gallery-item">
+                <img src="Itachi-Uchiha1.jpg" alt="Itachi Uchiha Anime" onclick="openLightbox(this.src)">
+            </div>
+
+            <div class="gallery-item">
+                <img src="Itachi-Uchiha2.jpg" alt="Itachi Uchiha Sharingan" onclick="openLightbox(this.src)">
+            </div>
+
+            <div class="gallery-item">
+                <img src="itachi.jpg" alt="Itachi Uchiha Akatsuki" onclick="openLightbox(this.src)">
+            </div>
+        </section>
+
+        <!-- Text Animations -->
+        <section>
+            <p class="reveal">
+                Itachi Uchiha is one of the most iconic characters in Naruto.
+            </p>
+
+            <p class="reveal" style="animation-delay:0.3s;">
+                His story is built on sacrifice, pain, and loyalty.
+            </p>
+
+            <p class="scroll-reveal">
+                Itachi Uchiha represents sacrifice, loyalty, and peace.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Lightbox -->
+    <div id="lightbox" onclick="closeLightbox()">
+        <img id="lightbox-img" alt="Lightbox Image">
+    </div>
+
+    <footer>
+        <p>Fan-made anime website • No copyright infringement intended</p>
+    </footer>
+
+    </div>
+
+    <script src="scripts.js"></script>
+    </body>
+</html>

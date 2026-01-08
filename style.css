@@ -1,0 +1,218 @@
+/* body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("itachi-eye.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.75);
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+h1 {
+    color: red;
+    font-size: 36px;
+}
+
+h2 {
+    color: #ff5555;
+    font-size: 22px;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+a {
+    color: #00aaff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #cccccc;
+} */
+ /* =========================
+   GLOBAL RESET
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: url("itachi-eye.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+/* DARK OVERLAY */
+.overlay {
+    background: rgba(0, 0, 0, 0.80);
+    min-height: 100vh;
+}
+
+/* =========================
+   HEADER
+========================= */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 2px solid red;
+}
+
+header h1 {
+    font-size: 42px;
+    color: red;
+    letter-spacing: 2px;
+    text-shadow: 0 0 15px red;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #ff7777;
+}
+
+/* =========================
+   NAVBAR
+========================= */
+nav {
+    margin-top: 25px;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: red;
+    text-shadow: 0 0 10px red;
+}
+
+/* =========================
+   MAIN CONTENT
+========================= */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* IMAGE */
+main img {
+    width: 280px;
+    border-radius: 15px;
+    border: 2px solid red;
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.6);
+    margin-bottom: 30px;
+}
+
+/* TEXT */
+main p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #dddddd;
+}
+
+/* =========================
+   BUTTON / LINK
+========================= */
+.btn-anime {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 2px solid red;
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.btn-anime:hover {
+    background: red;
+    color: black;
+    box-shadow: 0 0 20px red;
+}
+
+/* =========================
+   SECTIONS
+========================= */
+section {
+    margin-top: 50px;
+    padding: 20px;
+    border-top: 1px solid #333;
+}
+
+/* =========================
+   FOOTER
+========================= */
+footer {
+    text-align: center;
+    padding: 30px 15px;
+    border-top: 2px solid red;
+    font-size: 14px;
+    color: #aaaaaa;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+footer a {
+    color: red;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-shadow: 0 0 10px red;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 32px;
+    }
+
+    main img {
+        width: 220px;
+    }
+}
